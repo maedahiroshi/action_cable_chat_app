@@ -5,5 +5,5 @@
 message_appender = (content) ->
   $('#messages-table').append(content)
 
-$(document).on('turbolinks:load', ->
+$(document).on 'turbolinks:load', ->
   $('#messages-table').append('hello, world!')
